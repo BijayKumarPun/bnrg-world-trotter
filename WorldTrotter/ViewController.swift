@@ -13,13 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-          let gradientLayout : CAGradientLayer = CAGradientLayer()
-        gradientLayout.frame  = CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height)
-        gradientLayout.colors = [
-            UIColor.blue.cgColor,
-            UIColor.green.cgColor]
-        
-        view.layer.addSublayer(gradientLayout)
+
     
     }
     
