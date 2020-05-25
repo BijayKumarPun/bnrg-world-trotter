@@ -12,8 +12,8 @@ class ConversionViewController: UIViewController {
   
 
     override func viewDidLoad() {
-    //    super.viewDidLoad()
-  
+        super.viewDidLoad()
+  print("ConversionViewController loaded its view.")
     
     }
     
